@@ -8,7 +8,7 @@ navbar:
     - icon: fa-envelope fa-lg
       href: mailto:<bh2849@cumc.columbia.edu>
     - icon: fa-github fa-lg
-      href: http://github.com/<bh2849>/
+      href: http://github.com/beryl66666/
 output:
   html_document:
     theme: cerulean

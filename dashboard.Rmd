@@ -1,0 +1,67 @@
+---
+title: "Dashboard NY NOAA"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(p8105.datasets)
+library(tidyverse)
+library(plotly)
+library(ggridges)
+library(patchwork)
+
+```
+
+
+```{r include=FALSE}
+data(ny_noaa)
+
+noaa_data = ny_noaa %>%
+  sample_n(1000) %>% 
+  janitor::clean_names() %>%
+  separate(date, c("year", "month", "day"), convert = T) %>%
+  mutate(tmax = as.numeric(tmax)/10,
+         tmin = as.numeric(tmin)/10,
+         prcp = prcp/10) 
+```
+
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A: Tmax vs Tmin 
+
+```{r}
+noaa_data %>% 
+  mutate(text_label = str_c("Year:", year, "\nID: ", id)) %>% 
+  plot_ly(x = ~ tmin, y = ~ tmax, color = ~ year, type = "scatter", mode = "markers", text = ~ text_label, alpha = 0.5)
+  
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B: Box Plots of Tmax over Years
+
+```{r}
+noaa_data %>% 
+  mutate(year = as.factor(year)) %>% 
+  plot_ly(x = ~year, y = ~ tmax, color = ~ year, text = ~ year, type = "box")
+
+```
+
+### Chart C:  Distribution of Recording Times Each Year
+
+```{r}
+noaa_data %>% 
+  drop_na(year) %>%
+  mutate(year = as.factor(year)) %>%
+  count(year) %>% 
+  mutate(year = fct_reorder(year, n)) %>% 
+  plot_ly(x = ~year, y = ~n, color = ~year, type = "bar")
+```
+

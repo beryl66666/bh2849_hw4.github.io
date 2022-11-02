@@ -6,18 +6,20 @@ output:
     toc_float: true
 ---
 
-# Hi, I'm Binyue Hu
+## WELCOME 💐
 
 This is Binyue, 
 
-#### WHO I AM? 
+## WHO I AM? 
 
-* I am a student of P8105 Data Science I, and click [Hu.Binyue.GitHub]() to get into my GitHub account.
+* I am a student of P8105 Data Science I, and click [Hu.Binyue.HW4.GitHub](https://github.com/beryl66666/bh2849_hw4.github.io) to get into my HW4's repository.
 
-* I am a first year biostats student at Mailman Public Health Department in Columbia University, and click [LinkedIn]() to get networkings with me. 
+* I am a first year biostats student at Mailman Public Health Department in Columbia University, and click [My LinkedIn](https://www.linkedin.com/in/binyue-hu-322149205/) to get networking with me. 
 
 
-#### WHAT I DO? 
+## WHAT I DO? 
 
-* Click [Hu.Binyue.Resume]() to get my academic and professional experience. 
+* Click [Hu.Binyue.Resume](resume.html) to get my academic and professional experience. 
+
+* Click [here](dashboard.html) to see the dashboard of NY NOAA. 
 
