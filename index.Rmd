@@ -1,0 +1,23 @@
+---
+title: "Personal Website of Binyue Hu"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# Hi, I'm Binyue Hu
+
+This is Binyue, 
+
+#### WHO I AM? 
+
+* I am a student of P8105 Data Science I, and click [Hu.Binyue.GitHub]() to get into my GitHub account.
+
+* I am a first year biostats student at Mailman Public Health Department in Columbia University, and click [LinkedIn]() to get networkings with me. 
+
+
+#### WHAT I DO? 
+
+* Click [Hu.Binyue.Resume]() to get my academic and professional experience. 
+
