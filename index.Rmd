@@ -5,21 +5,18 @@ output:
     toc: true
     toc_float: true
 ---
+![](files/Welcome.jpeg)
 
-## WELCOME 💐
+## Hello 💐
 
-This is Binyue, 
+Good Morning, and in case I don't see you, good afternoon, good evening, and good night!
 
-## WHO I AM? 
+This is Binyue, an entry level data scientist who is learning R in the Dara Science I. 
 
-* I am a student of P8105 Data Science I, and click [Hu.Binyue.HW4.GitHub](https://github.com/beryl66666/bh2849_hw4.github.io) to get into my HW4's repository.
+Besides, I am also taking Biostatistical Methods, Probability, and Principle of Epidemiology this semester. 
 
-* I am a first year biostats student at Mailman Public Health Department in Columbia University, and click [My LinkedIn](https://www.linkedin.com/in/binyue-hu-322149205/) to get networking with me. 
+In my free time, I like hiking, travelling and dancing. 
 
+Please feel free to explore my website, and you can contact me through the email directly!  
 
-## WHAT I DO? 
-
-* Click [Hu.Binyue.Resume](resume.html) to get my academic and professional experience. 
-
-* Click [here](dashboard.html) to see the dashboard of NY NOAA. 
 
